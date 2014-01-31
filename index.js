@@ -14,14 +14,10 @@ module.exports = repeat;
  */
 
 function repeat(str, n) {
-  n = Number(n);
   var out = '';
 
-  while (true) {
+  for (n |= 0; n > 0; n >>>= 1, str += str) {
     if (n & 1) out += str;
-    n >>>= 1;
-    if (n <= 0) break;
-    str += str;
   }
 
   return out;

@@ -1,7 +1,7 @@
 
 # repeat
 
-  Repeat strings efficiently. Inspired by this [blog post](http://www.2ality.com/2014/01/efficient-string-repeat.html).
+  Repeat strings efficiently. Originally from the [escodegen](https://github.com/Constellation/escodegen) project.
 
 ## Installation
 
