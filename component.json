@@ -1,0 +1,16 @@
+{
+  "name": "repeat",
+  "repo": "component/repeat",
+  "description": "repeat strings",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
